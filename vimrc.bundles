@@ -1,1 +1,56 @@
-/Users/brettsanders/.vimrc.bundles
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+
+" add bundles for vim
+
+" ctrp : fuzzy file searc
+Bundle 'kien/ctrlp.vim'
+
+" syntaxtic : handles syntax coloring 
+Bundle 'scrooloose/syntastic'
+
+" keyboard shortcuts for rspec tests
+Bundle 'thoughtbot/vim-rspec'
+
+" allows for running bundler in vim
+Bundle 'tpope/vim-bundler'
+
+" automatically adds ends
+Bundle 'tpope/vim-endwise'
+
+" can pick ruby version for vim with rvm
+Bundle 'tpope/vim-rvm'
+
+" git wrapper for vim
+Bundle 'tpope/vim-fugitive'
+
+" shortcuts, highlighting for rails
+Bundle 'tpope/vim-rails'
+
+" erb tags, wrap line of code in something
+Bundle 'tpope/vim-surround'
+
+" highlights matching brackets
+" Bundle 'tsaleh/vim-matchit'
+
+" ctl -- for commenting
+Bundle 'vim-scripts/tComment'
+
+" easier to move around tmux
+Bundle 'christoomey/vim-tmux-navigator'
+
+" customize title bars
+"Bundle 'bling/vim-airline'
+
+" color schemes
+Bundle 'chriskempson/base16-vim'
+
+" auto complete method names
+Bundle 'Shougo/neocomplcache'
+
+" file directories
+Bundle 'scrooloose/nerdtree'
